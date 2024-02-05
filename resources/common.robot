@@ -41,3 +41,9 @@ Home
     ClickText             Home
     VerifyTitle           Home | Salesforce
     
+generateAccount
+    [Documentation]    generate unique Accounts 
+    [Arguments]        ${uniqueTimeStamp}    ${uniqueAccountName}
+       
+
+    
