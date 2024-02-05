@@ -12,7 +12,6 @@ Create Account Growmore
     LaunchApp                Sales
     ${currentTimestamp}=     Get Current Date
     ${uniqueAccountName}=    generateAccount             ${currentTimestamp}     prasad
-
     ClickText                Details                     anchor=Related
     VerifyText               ${uniqueAccountName}
     VerifyText               ${uniqueAccountName}        anchor=Account Name     timeout=60s
