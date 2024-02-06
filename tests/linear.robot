@@ -24,7 +24,7 @@ Entering A Lead
 
     ${Salutation}=            Convert To String           [Ms.,Mrs.,Mr.]
     ${firstName}=             Convert To String           [vijaya,prasad,reddy]
-    ${lastName}=              Convert To String           [Smith,Thomas,Theodore]
+    ${lastName}=              Convert To String           [mittapalli,ghattamaneni,perabathula]
     ${fullTitle}=             Catenate                    ${Salutation}               ${firstName}    ${lastName}
     ${fullName}=              Catenate                    ${firstName}                ${lastName}
 
