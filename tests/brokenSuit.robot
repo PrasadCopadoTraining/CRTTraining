@@ -74,6 +74,7 @@ Start payment info
     ClickText          Province/State
     ClickText          Manitoba
     TypeText           Postal/ZIP code      12345
+    Log Variables
 
 *** Keywords ***
 
