@@ -27,8 +27,8 @@ Shop for products
     GoTo                https://qentinelqi.github.io/shop/
     ClickText           Sacha the Deer
     VerifyText          Slim Fit, 5oz 100% Cotton T-Shirt.
-    GoTo                https://qentinelqi.github.io/shop/
-    ClickText           Bumble the Elephant
+    # GoTo                https://qentinelqi.github.io/shop/
+    # ClickText           Bumble the Elephant
     ClickText           Add to cart
     VerifyText          Cart summary
     VerifyText          Sacha the Deer
@@ -41,7 +41,7 @@ Continue shopping
     ClickText           Gavin the Tiger
     VerifyText          His favorite meal is chickpea salad with a lemon juice dressing.
     VerifyText          $9.00
-    ClickText           Add to carts
+    ClickText           Add to cart
     ClickText           Continue shopping
     # Check if we've exited the "cart" by looking for text in the footer.
     VerifyText          Fur, Inc.
@@ -50,6 +50,7 @@ Check Our Story
     [Tags]              Broken
     [Documentation]    VerifyText on Ava Sandler and Steph Poco in the /about/ page   <Hint: Our Story>
     Appstate           Home
+    ClickText          Our Story
     VerifyText         Ava Sandler
     VerifyText         Steph Poco
     VerifyText         Passion
@@ -62,7 +63,7 @@ Start payment info
     Appstate           Home   
     ClickText          shopping_cart
     ClickText          Checkout
-    TypeText           Tina Smith            Full name
+    TypeText           Full name             Tina Smith
     TypeText           Email                 Tina.Smith@growmore.com   
     
     ClickText          I don't see my address    
