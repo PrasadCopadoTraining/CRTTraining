@@ -31,7 +31,7 @@ Entering A Lead
     Picklist                  Salutation                  ${Salutation}
     TypeText                  First Name                  ${firstName}
     TypeText                  Last Name                   ${lastName}
-    Picklist                  Lead Status                 New
+    Picklist                  Lead Status                 Open-Not Contacted
     TypeText                  Phone                       +12234567858449             First Name
     TypeText                  Company                     Growmore                    Last Name
     TypeText                  Title                       Manager                     Address Information
