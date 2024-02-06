@@ -23,7 +23,7 @@ Entering A Lead
     UseModal                  On                          # Only find fields from open modal dialog
 
     ${Salutation}=            Convert To String           [Ms.,Mrs.,Mr.]
-    ${firstName}=             Convert To String           [Tina,Jessica,John]
+    ${firstName}=             Convert To String           [vijaya,prasad,reddy]
     ${lastName}=              Convert To String           [Smith,Thomas,Theodore]
     ${fullTitle}=             Catenate                    ${Salutation}               ${firstName}    ${lastName}
     ${fullName}=              Catenate                    ${firstName}                ${lastName}
